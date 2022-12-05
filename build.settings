@@ -1,0 +1,45 @@
+settings =
+{
+	orientation =
+	{
+		default = "landscapeLeft",
+        content = "landscapeLeft",
+		supported =
+		{
+			"landscapeRight", "landscapeLeft"
+		}
+	},
+
+	plugins =
+    {
+
+    },
+
+	splashScreen =
+    {
+        enable = false
+    },
+
+    window =
+    {
+        defaultMode = "fullscreen",
+
+        defaultViewWidth = 1920,
+        defaultViewHeight = 1080,
+
+        resizable = true,
+
+		minViewWidth = 480,
+        minViewHeight = 270,
+
+        enableCloseButton = true,
+        enableMinimizeButton = true,
+        enableMaximizeButton = true,
+
+        titleText =
+        {
+			default = "DriverAI Demo",
+        },
+
+    }
+}

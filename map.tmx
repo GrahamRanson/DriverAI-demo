@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="75">
+ <editorsettings>
+  <export target="map.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="roads" tilewidth="64" tileheight="64" tilecount="24" columns="8">
+  <image source="roads.png" width="512" height="192"/>
+ </tileset>
+ <layer id="1" name="track" width="10" height="10">
+  <data encoding="csv">
+18,20,20,20,20,20,20,19,19,18,
+19,9,3,3,10,20,20,20,20,20,
+19,4,20,20,4,20,20,20,19,20,
+19,22,20,20,4,20,20,20,20,20,
+19,4,20,20,4,20,20,20,20,20,
+19,4,20,20,4,20,20,20,20,20,
+19,12,3,3,11,20,19,20,20,20,
+19,20,20,20,20,20,20,20,20,20,
+19,20,20,20,20,20,20,20,20,20,
+18,20,20,20,20,20,20,20,20,18
+</data>
+ </layer>
+ <objectgroup id="4" name="waypoints">
+  <object id="44" name="waypoint" x="95.4337" y="126.842">
+   <properties>
+    <property name="distance" type="int" value="30"/>
+    <property name="index" type="int" value="1"/>
+    <property name="speed" type="int" value="70"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="45" name="waypoint" x="105.925" y="104.618">
+   <properties>
+    <property name="distance" type="int" value="30"/>
+    <property name="index" type="int" value="2"/>
+    <property name="speed" type="int" value="40"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="46" name="waypoint" x="186.035" y="94.2254">
+   <properties>
+    <property name="distance" type="int" value="30"/>
+    <property name="index" type="int" value="3"/>
+    <property name="speed" type="int" value="50"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="47" name="waypoint" x="274.825" y="106.306">
+   <properties>
+    <property name="distance" type="int" value="30"/>
+    <property name="index" type="int" value="4"/>
+    <property name="speed" type="int" value="60"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="69" name="waypoint" x="288.285" y="157.163">
+   <properties>
+    <property name="distance" type="int" value="20"/>
+    <property name="index" type="int" value="5"/>
+    <property name="speed" type="int" value="30"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="70" name="waypoint" x="285.093" y="254.288">
+   <properties>
+    <property name="distance" type="int" value="20"/>
+    <property name="index" type="int" value="6"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="71" name="waypoint" x="286.301" y="384.151">
+   <properties>
+    <property name="distance" type="int" value="20"/>
+    <property name="index" type="int" value="7"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="72" name="waypoint" x="281.469" y="408.915">
+   <properties>
+    <property name="distance" type="int" value="20"/>
+    <property name="index" type="int" value="8"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="73" name="waypoint" x="191.706" y="416.667">
+   <properties>
+    <property name="distance" type="int" value="80"/>
+    <property name="index" type="int" value="9"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="74" name="waypoint" x="102.7" y="413.732">
+   <properties>
+    <property name="distance" type="int" value="30"/>
+    <property name="index" type="int" value="10"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>
